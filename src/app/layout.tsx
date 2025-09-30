@@ -1,6 +1,7 @@
 import "./globals.css"
 import type { Metadata } from "next"
 import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer"
 
 export const metadata: Metadata = {
   title: "Alana Wu — Portfolio",
@@ -16,7 +17,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <main className="container mx-auto p-6">{children}</main>
+        <main className="container mx-auto">{children}</main>
+        <Footer/>
       </body>
     </html>
   )
