@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar"
 
 export const metadata: Metadata = {
   title: "Alana Wu — Portfolio",
-  description: "Software Engineering @ RIT • SWE + Cloud",
+  description: "Software Engineering Undegraduate @ RIT",
 }
 
 export default function RootLayout({
